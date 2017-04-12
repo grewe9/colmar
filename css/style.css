@@ -54,12 +54,27 @@ nav.desktop {
 
   section.headline {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
   }
+
+  section.headline .banner-container {
+    padding: 2rem 1.5rem;
+    width: 60%;
+  }
+
+  section.headline .content-container > * {
+    width: 75%;
+  }
+
 }
 
 /*Headline Section*/
+section.headline {
+  max-width: 75rem;
+  margin: 0 auto;
+}
+
 section.headline .banner-container {
   min-width: 15.1875rem;
 }
@@ -70,8 +85,8 @@ section.headline .banner-container img {
 }
 
 section.headline .content-container {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 section.headline h1 {
