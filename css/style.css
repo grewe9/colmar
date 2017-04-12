@@ -1,0 +1,15 @@
+html {
+  font-size: 16px;
+}
+
+header {
+  height: 4rem;
+  border: 1px solid black;
+}
+
+nav.mobile {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
