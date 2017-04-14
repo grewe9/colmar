@@ -77,6 +77,7 @@ section.headline {
 
 section.headline .banner-container {
   min-width: 15.1875rem;
+  //padding: 0 1rem;
 }
 
 section.headline .banner-container img {
@@ -87,6 +88,7 @@ section.headline .banner-container img {
 section.headline .content-container {
   padding-left: 1rem;
   padding-right: 1rem;
+
 }
 
 section.headline h1 {
@@ -103,4 +105,31 @@ section.headline .start-button {
   text-align: center;
   padding: 0.5rem 0;
   border: 1px solid black;
+}
+
+/*Features Section*/
+section.features .main-feature-container {
+  display: none;
+}
+
+section.features .sub-feature-container {
+  padding: 1rem;
+}
+
+section.features .sub-feature-image {
+  min-width: 15.1875rem;
+  //padding: 1rem;
+}
+
+section.features .sub-feature-image img {
+  width: 100%;
+  height: auto;
+}
+
+section.features .sub-feature-info {
+  padding: 1rem 0 1rem 1rem;
+}
+
+section.features .sub-feature-info h4, .description {
+  padding-bottom: 0.375rem;
 }
