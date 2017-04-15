@@ -231,6 +231,11 @@ section.learning .mobile-course-container h4 {
     padding: 0.5rem 0;
   }
 
+  section.learning {
+    max-width: 75rem;
+    margin: 0 auto;
+  }
+
   section.learning .mobile-course-container {
     display: none;
   }
