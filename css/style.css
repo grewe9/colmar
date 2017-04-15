@@ -75,11 +75,11 @@ section.features .sub-feature-image {
   min-width: 15.1875rem;
 }
 
-section.features .sub-feature-image img.desktop-feature {
+section.features img.desktop-feature {
   display: none;
 }
 
-section.features .sub-feature-image img.mobile-feature {
+section.features img.mobile-feature {
   width: 100%;
   height: auto;
 }
@@ -127,6 +127,7 @@ section.features .sub-feature-info h4, .description {
 
   section.headline .banner-container {
     width: 60%;
+    padding: 2rem 1.5rem;
   }
 
   section.headline .banner-container img {
@@ -147,6 +148,8 @@ section.features .sub-feature-info h4, .description {
   section.features {
     display: flex;
     justify-content: flex-start;
+    max-width: 75rem;
+    margin: 0 auto;
   }
 
   section.features .main-feature-container {
@@ -154,6 +157,7 @@ section.features .sub-feature-info h4, .description {
     flex-direction: column;
     justify-content: flex-start;
     width: 60%;
+    padding: 2rem 1.5rem;
   }
 
   section.features .main-image-container {
@@ -167,7 +171,22 @@ section.features .sub-feature-info h4, .description {
 
   section.features .all-sub-features {
     width: 40%;
-    padding: 0;
+    padding: 1rem 0 0 0;
+  }
+
+  section.features .sub-feature-container {
+    padding: 1rem;
+  }
+
+  section.features .sub-feature {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  section.features .sub-feature-image {
+    min-width: 0;
+    max-width: 35%;
   }
 
   section.features img.mobile-feature {
@@ -176,10 +195,17 @@ section.features .sub-feature-info h4, .description {
 
   section.features img.desktop-feature {
     display: inline-block;
+    width: 100%;
+    height: auto;
   }
 
   section.features .sub-feature-info {
     padding: 0;
+    margin-left: 1.5rem;
+  }
+
+  section.features .description {
+    padding: 0.5rem 0;
   }
 
 }
