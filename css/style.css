@@ -115,6 +115,24 @@ section.learning .mobile-course-container h4 {
   padding: 1rem 0 1rem 1rem;
 }
 
+section.thesis h2 {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+section.thesis video {
+  width: 100%;
+  height: auto;
+}
+
+section.thesis .main-thesis-info {
+  display: none;
+}
+
+section.thesis .all-thesis-subs {
+  display: none;
+}
+
 @media only screen and (min-width: 600px) {
   nav.mobile {
     display: none;
