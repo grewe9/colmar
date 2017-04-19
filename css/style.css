@@ -137,6 +137,14 @@ section.thesis .all-thesis-subs {
   display: none;
 }
 
+footer .copyright {
+  padding: 1rem 0 1rem 1rem;
+}
+
+footer .links {
+  display: none;
+}
+
 @media only screen and (min-width: 600px) {
   nav.mobile {
     display: none;
@@ -366,5 +374,23 @@ section.thesis .all-thesis-subs {
 
   section.thesis .thesis-info h4 {
     padding-bottom: 0.875rem;
+  }
+
+  footer {
+    display: flex;
+  }
+
+  footer .copyright {
+    flex-grow: 1;
+  }
+
+  footer .links {
+    display: block;
+    padding: 1rem 0;
+  }
+
+  footer li {
+    display: inline;
+    padding-right: 0.375rem;
   }
 }
