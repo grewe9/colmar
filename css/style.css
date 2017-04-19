@@ -115,8 +115,12 @@ section.learning .mobile-course-container h4 {
   padding: 1rem 0 1rem 1rem;
 }
 
+section.thesis {
+  padding-bottom: 1.5rem;
+}
+
 section.thesis h2 {
-  padding: 2rem 0 1rem 0;
+  padding: 2rem 0;
   text-align: center;
 }
 
@@ -210,6 +214,15 @@ section.thesis .all-thesis-subs {
     height: auto;
   }
 
+  section.features h2 {
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+  }
+
+  section.features span {
+    padding-top: 1.5rem;
+  }
+
   section.features .all-sub-features {
     width: 40%;
     padding: 1rem 0 0 0;
@@ -252,6 +265,10 @@ section.thesis .all-thesis-subs {
   section.learning {
     max-width: 75rem;
     margin: 0 auto;
+  }
+
+  section.learning h2 {
+    padding-bottom: 2rem;
   }
 
   section.learning .mobile-course-container {
@@ -307,17 +324,21 @@ section.thesis .all-thesis-subs {
 
   section.thesis .thesis-feature {
     width: 60%;
-    padding: 1rem 1.5rem 0 1.5rem;
+    padding: 0 1.5rem;
   }
 
   section.thesis .main-thesis-info  {
     display: block;
   }
 
+  section.thesis .main-thesis-info h4 {
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+  }
+
   section.thesis .all-thesis-subs {
     display: block;
     width: 40%;
-    margin-top: 1rem;
   }
 
   section.thesis .thesis-sub-container {
@@ -341,5 +362,9 @@ section.thesis .all-thesis-subs {
 
   section.thesis .thesis-info {
     margin-left: 1rem;
+  }
+
+  section.thesis .thesis-info h4 {
+    padding-bottom: 0.875rem;
   }
 }
