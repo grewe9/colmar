@@ -116,7 +116,7 @@ section.learning .mobile-course-container h4 {
 }
 
 section.thesis h2 {
-  padding: 2rem 0;
+  padding: 2rem 0 1rem 0;
   text-align: center;
 }
 
@@ -293,5 +293,53 @@ section.thesis .all-thesis-subs {
 
   section.learning .course-content h5.listing {
     padding-bottom: 0.5rem;
+  }
+
+  section.thesis {
+    max-width: 75rem;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+  }
+
+  section.thesis .thesis-flex-container {
+    display: flex;
+  }
+
+  section.thesis .thesis-feature {
+    width: 60%;
+    padding: 1rem 1.5rem 0 1.5rem;
+  }
+
+  section.thesis .main-thesis-info  {
+    display: block;
+  }
+
+  section.thesis .all-thesis-subs {
+    display: block;
+    width: 40%;
+    margin-top: 1rem;
+  }
+
+  section.thesis .thesis-sub-container {
+    padding: 1rem;
+  }
+
+  section.thesis .thesis-sub-feature {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  section.thesis .thesis-sub-image {
+    max-width: 35%;
+  }
+
+  section.thesis .thesis-sub-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  section.thesis .thesis-info {
+    margin-left: 1rem;
   }
 }
