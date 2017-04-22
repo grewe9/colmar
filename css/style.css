@@ -4,23 +4,19 @@ html {
 
 body {
   font-family: "Martel Sans", sans-serif;
-  background-color: #1A1A4F;
+  background-color: #012947;
 }
 
-header {
-  background-color: #E5E5E8;
+.gray-background {
+  background-color: #F0F0F1;
 }
 
-section {
+.white-background {
   background-color: #FFF;
 }
 
-footer {
-  background-color: #EFEFF1;
-}
-
 a {
-  color: #0000D5;
+  color: #0462a9;
   text-decoration: none;
 }
 
@@ -41,6 +37,8 @@ h2 {
   font-family: Martel, serif;
   font-size: 1.75rem;
   font-weight: 700;
+  color: #AE3100;
+  text-shadow: 1px 1px 2px #012947;
 }
 
 h4 {
@@ -53,12 +51,16 @@ p {
   line-height: 1.1;
 }
 
+#small-text {
+  font-size: 0.75rem;
+}
+
 /*Header and Nav Section*/
 header {
   height: 4rem;
   width: 100%;
-  position: fixed;
-  top: 0;
+  max-width: 75rem;
+  margin: 0 auto;
 }
 
 header nav {
@@ -83,8 +85,7 @@ nav.desktop {
 /*Headline Section*/
 section.headline {
   max-width: 75rem;
-  margin: 4rem auto 0 auto;
-  background-color: #EFEFF1;
+  margin: 0 auto;
 }
 
 section.headline .banner-container {
@@ -114,13 +115,22 @@ section.headline .start-button {
   margin-bottom: 2rem;
   text-align: center;
   padding: 0.5rem 0;
-  border: 1px solid black;
+  background-color: #AE3100;
+  color: #FFF;
+  border-radius: 0.375rem;
+}
+
+section.headline .start-button span {
+  font-size: 1.25rem;
+  position: relative;
+  top: 0.125rem;
+}
+
+section.headline .start-button:hover {
+
 }
 
 /*Features Section*/
-section.features {
-  background-color: #EAEAEC;
-}
 section.features .main-feature-container {
   display: none;
 }
@@ -159,7 +169,6 @@ section.features .sub-feature-info h4, .description {
 /*Learning Section*/
 section.learning {
   padding: 1.5rem 1rem;
-  background-color: #EFEFF1;
 }
 
 section.learning h2 {
@@ -182,7 +191,6 @@ section.learning .mobile-course-container h4 {
 
 section.thesis {
   padding-bottom: 1.5rem;
-  background-color: #EAEAEC;
 }
 
 section.thesis h2 {
