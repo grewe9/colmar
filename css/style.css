@@ -7,6 +7,10 @@ body {
   background-color: #012947;
 }
 
+img {
+  width: 100%!important;
+}
+
 .gray-background {
   background-color: #F0F0F1;
 }
@@ -59,8 +63,9 @@ p {
 header {
   height: 4rem;
   width: 100%;
-  max-width: 75rem;
-  margin: 0 auto;
+  position: fixed;
+  top: 0;
+  border-bottom: 0.125rem solid #AE3100;
 }
 
 header nav {
@@ -85,7 +90,8 @@ nav.desktop {
 /*Headline Section*/
 section.headline {
   max-width: 75rem;
-  margin: 0 auto;
+  margin: 4rem auto 0 auto;
+  padding-bottom: 2rem;
 }
 
 section.headline .banner-container {
@@ -112,12 +118,15 @@ section.headline h3 {
 }
 
 section.headline .start-button {
-  margin-bottom: 2rem;
   text-align: center;
   padding: 0.5rem 0;
   background-color: #AE3100;
   color: #FFF;
   border-radius: 0.375rem;
+}
+
+section.headline .start-button:hover {
+  background-color: #012947;
 }
 
 section.headline .start-button span {
@@ -155,12 +164,6 @@ section.features img.mobile-feature {
 section.features .sub-feature-info {
   padding: 1rem 0 1rem 1rem;
 }
-
-/*section.features h4 {
-  font-family: Martel, serif;
-  font-size: 1.25rem;
-  font-weight: 700;
-}*/
 
 section.features .sub-feature-info h4, .description {
   padding-bottom: 0.5rem;
@@ -349,6 +352,7 @@ footer .links {
 
   section.features .description {
     padding: 0.5rem 0;
+    font-size: 0.875rem;
   }
 
   section.learning {
@@ -400,6 +404,7 @@ footer .links {
 
   section.learning .course-content h5.listing {
     padding-bottom: 0.5rem;
+    line-height: 1.2;
   }
 
   section.thesis {
