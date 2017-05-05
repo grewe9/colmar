@@ -7,10 +7,6 @@ body {
   background-color: #012947;
 }
 
-img {
-  width: 100%!important;
-}
-
 .gray-background {
   background-color: #F0F0F1;
 }
@@ -20,7 +16,7 @@ img {
 }
 
 a {
-  color: #0462a9;
+  color: #0462A9;
   text-decoration: none;
 }
 
@@ -29,8 +25,6 @@ a:hover {
 }
 
 h1 {
-  font-family: Martel, serif;
-  color: #012947;
   font-size: 2rem;
   font-weight: 700;
   margin-top: 2rem;
@@ -38,9 +32,12 @@ h1 {
 }
 
 h2 {
-  font-family: Martel, serif;
   font-size: 1.75rem;
   font-weight: 700;
+}
+
+h1, h2 {
+  font-family: Martel, serif;
   color: #AE3100;
   text-shadow: 1px 1px 2px #012947;
 }
@@ -120,13 +117,15 @@ section.headline h3 {
 section.headline .start-button {
   text-align: center;
   padding: 0.5rem 0;
-  background-color: #AE3100;
+  background-color: #0462A9;
+  box-shadow: 0 0 0.125rem 0.125rem #012947;
   color: #FFF;
   border-radius: 0.375rem;
 }
 
 section.headline .start-button:hover {
   background-color: #012947;
+  box-shadow: 0 0 0.125rem 0.125rem #0462A9;
 }
 
 section.headline .start-button span {
