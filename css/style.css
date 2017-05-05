@@ -44,15 +44,19 @@ h1, h2 {
 
 h4 {
   font-family: Martel, serif;
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 700;
+}
+
+h5 {
+  font-size: 0.875rem;
 }
 
 p {
   line-height: 1.1;
 }
 
-#small-text {
+.sf-text {
   font-size: 0.75rem;
 }
 
@@ -63,6 +67,7 @@ header {
   position: fixed;
   top: 0;
   border-bottom: 0.125rem solid #AE3100;
+  z-index: 10;
 }
 
 header nav {
@@ -132,6 +137,7 @@ section.headline .start-button span {
   font-size: 1.25rem;
   position: relative;
   top: 0.125rem;
+  z-index: 5;
 }
 
 section.headline .start-button:hover {
@@ -178,6 +184,10 @@ section.learning h2 {
   padding: 0.5rem 0;
 }
 
+section.learning h4 {
+  font-size: 1.25rem;
+}
+
 section.learning .top-courses {
   display: none;
 }
@@ -189,6 +199,9 @@ section.learning .bottom-courses {
 section.learning .mobile-course-container h4 {
   margin: 0.5rem auto;
   padding: 1rem 0 1rem 1rem;
+  max-width: 31.25rem;
+  background-color: #0462A9;
+  color: #FFF;
 }
 
 section.thesis {
@@ -221,7 +234,7 @@ footer .links {
   display: none;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 640px) {
   nav.mobile {
     display: none;
   }
@@ -279,6 +292,10 @@ footer .links {
   section.headline .content-container > * {
     width: 75%;
     margin-left: 1rem;
+  }
+
+  section.headline .start-button {
+    margin-bottom: 1.5rem;
   }
 
   section.features {
@@ -351,7 +368,6 @@ footer .links {
 
   section.features .description {
     padding: 0.5rem 0;
-    font-size: 0.875rem;
   }
 
   section.learning {
