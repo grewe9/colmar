@@ -56,6 +56,10 @@ p {
   line-height: 1.1;
 }
 
+img {
+  border-radius: 0.5rem;
+}
+
 .sf-text {
   font-size: 0.75rem;
 }
@@ -103,6 +107,7 @@ section.headline .banner-container {
 section.headline .banner-container img {
   width: 100%;
   height: auto;
+  border-radius: 0;
 }
 
 section.headline .content-container {
@@ -131,6 +136,11 @@ section.headline .start-button {
 section.headline .start-button:hover {
   background-color: #012947;
   box-shadow: 0 0 0.125rem 0.125rem #0462A9;
+}
+
+section.headline .start-button-container a {
+  color: #FFF;
+  text-decoration: none;
 }
 
 section.headline .start-button span {
@@ -202,6 +212,7 @@ section.learning .mobile-course-container h4 {
   max-width: 31.25rem;
   background-color: #0462A9;
   color: #FFF;
+  border-radius: 0.5rem;
 }
 
 section.thesis {
@@ -224,6 +235,10 @@ section.thesis .main-thesis-info {
 
 section.thesis .all-thesis-subs {
   display: none;
+}
+
+footer {
+  font-size: 0.75rem;
 }
 
 footer .copyright {
@@ -276,12 +291,13 @@ footer .links {
 
   section.headline .banner-container {
     width: 60%;
-    padding: 2rem 1.5rem;
+    padding: 2rem 1.5rem 0 1.5rem;
   }
 
   section.headline .banner-container img {
     width: 100%;
     height: auto;
+    border-radius: 0.5rem;
   }
 
   section.headline .content-container {
@@ -297,6 +313,8 @@ footer .links {
   section.headline .start-button {
     margin-bottom: 1.5rem;
   }
+
+
 
   section.features {
     display: flex;
