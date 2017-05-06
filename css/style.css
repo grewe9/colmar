@@ -27,8 +27,7 @@ a:hover {
 h1 {
   font-size: 2rem;
   font-weight: 700;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin: 2rem 0;
 }
 
 h2 {
@@ -44,7 +43,6 @@ h1, h2 {
 
 h4 {
   font-family: Martel, serif;
-  font-size: 1rem;
   font-weight: 700;
 }
 
@@ -77,20 +75,18 @@ header {
 header nav {
   max-width: 75rem;
   margin: 0 auto;
+  width: 100%;
+  height: 100%;
 }
 
 nav.mobile {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 100%;
-  height: 100%;
 }
 
 nav.desktop {
   display: none;
-  width: 100%;
-  height: 100%;
 }
 
 /*Headline Section*/
@@ -295,8 +291,6 @@ footer .links {
   }
 
   section.headline .banner-container img {
-    width: 100%;
-    height: auto;
     border-radius: 0.5rem;
   }
 
@@ -313,8 +307,6 @@ footer .links {
   section.headline .start-button {
     margin-bottom: 1.5rem;
   }
-
-
 
   section.features {
     display: flex;
@@ -352,10 +344,6 @@ footer .links {
   section.features .all-sub-features {
     width: 40%;
     padding: 1rem 0 0 0;
-  }
-
-  section.features .sub-feature-container {
-    padding: 1rem;
   }
 
   section.features .sub-feature {
